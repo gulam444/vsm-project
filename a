@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Order Fulfillment - Value Stream Mapping</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>eCommerce Order Fulfillment - Value Stream Mapping</h1>
+        <p>A Lean approach to process improvement and efficiency.</p>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <h2>Introduction to Value Stream Mapping (VSM)</h2>
+        <p>Value Stream Mapping (VSM) is a powerful lean tool for identifying waste, improving flow, and enhancing customer satisfaction. It provides a comprehensive look at each process step and highlights areas where efficiency can be improved.</p>
+    </section>
+
+    <!-- Purpose Section -->
+    <section id="purpose">
+        <h2>Purpose of this VSM</h2>
+        <p>This project focuses on optimizing the eCommerce order fulfillment process, aiming to identify and eliminate inefficiencies to improve lead time and increase customer satisfaction.</p>
+    </section>
+
+    <!-- Current State VSM Section -->
+    <section id="current-state">
+        <h2>Current State Value Stream Map</h2>
+        <p>Below is the current process with each step and its corresponding metrics.</p>
+        <table>
+            <tr>
+                <th>Process Step</th>
+                <th>Description</th>
+                <th>Time Taken (mins)</th>
+                <th>Wait Time (mins)</th>
+                <th>Cycle Time (mins)</th>
+                <th>Value-Added</th>
+            </tr>
+            <tr>
+                <td>Order Receipt</td>
+                <td>Customer places order</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Picking</td>
+                <td>Items located in warehouse</td>
+                <td>5</td>
+                <td>10</td>
+                <td>15</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Packing</td>
+                <td>Items packaged for shipping</td>
+                <td>3</td>
+                <td>5</td>
+                <td>8</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Shipping Prep</td>
+                <td>Items labeled and prepared for dispatch</td>
+                <td>4</td>
+                <td>0</td>
+                <td>4</td>
+                <td>Yes</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Waste Analysis Section -->
+    <section id="waste-analysis">
+        <h2>Waste Analysis</h2>
+        <p>Identifying areas of waste such as waiting times and extra motion that contribute to inefficiencies.</p>
+    </section>
+
+    <!-- Improvements Section -->
+    <section id="improvements">
+        <h2>Suggested Improvements</h2>
+        <p>Implementing automation in the Picking process, reducing wait times, and optimizing warehouse layout to streamline the fulfillment process.</p>
+        <table>
+            <tr>
+                <th>Process Step</th>
+                <th>Before Improvement (mins)</th>
+                <th>After Improvement (mins)</th>
+            </tr>
+            <tr>
+                <td>Order Receipt</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Picking</td>
+                <td>15</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Packing</td>
+                <td>8</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Shipping Prep</td>
+                <td>4</td>
+                <td>3</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Future State VSM Section -->
+    <section id="future-state">
+        <h2>Future State Value Stream Map</h2>
+        <p>The proposed process improvements are expected to achieve significant reductions in processing time and increase customer satisfaction.</p>
+    </section>
+
+    <!-- Summary Section -->
+    <section id="summary">
+        <h2>Summary of Improvements</h2>
+        <p>By implementing these changes, we anticipate a 38% reduction in process time and significant gains in customer satisfaction and operational efficiency.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 eCommerce Order Fulfillment VSM Project</p>
+    </footer>
+</body>
+</html>
